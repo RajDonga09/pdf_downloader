@@ -10,7 +10,6 @@ class DownloaderController extends GetxController {
   RxList<DownloadModel> downloadingList = <DownloadModel>[].obs;
   List<String> staticUrl = [
     "https://research.nhm.org/pdfs/10840/10840.pdf",
-    "https://research.nhm.org/pdfs/10840/10840.pdf",
   ];
 
   void loadPdfData() async {
